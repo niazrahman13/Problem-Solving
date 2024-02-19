@@ -70,3 +70,42 @@ for i in range(0,x):
     for j in range(0,i+1):
         print(i+1,end='')
     print()
+
+5)
+
+*****
+****
+***
+**
+*
+
+Code:
+
+x = 5;
+
+for i in range(0,x):
+
+    for j in range(i,x):
+        print("*",end='')
+    print()
+
+6)
+
+12345
+2345
+345
+45
+5
+
+Code:
+
+x = 5;
+
+for i in range(0,x):
+
+    for j in range(i,x):
+        print(j+1,end='')
+    print()
+
+7)
+
