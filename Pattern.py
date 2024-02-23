@@ -107,5 +107,30 @@ for i in range(0,x):
         print(j+1,end='')
     print()
 
-7)
+7)      *         
+      * * *       
+    * * * * *     
+  * * * * * * *   
+* * * * * * * * *
 
+Code:
+
+x = 5;
+
+for i in range(0,x):
+    
+    #space
+    for space in range(0,x-i-1):
+        print(" ",end=" ")
+    
+
+    #star
+    for star in range(0,2*i+1):
+        print("*",end=" ")
+  
+
+    #space
+    for space in range(0,x-i-1):
+        print(" ",end=" ")
+
+    print()
