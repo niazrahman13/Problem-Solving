@@ -139,9 +139,9 @@ store = chr(ord(x)+32)
 here ord(x) receive A and convert 65, then we ad 32, 65+32 = 97,
 then we use chr()function to convert 97 into character, which is small a, "a"
 
-# C Plus Plus
+# C Plus Plus :
 
-## Converting char to int value, just use - '0'
+1) Converting char to int value, just use - '0'
 
 string s = "123";
 
@@ -152,4 +152,6 @@ for (auto u : s){
 
 at first u will store 1, then it will convert char 1 into int value;
 
-## TO show the data type, just use typeid(VARIABLE NAME).name()
+2) To show the data type:
+
+Just use typeid(VARIABLE NAME).name()
