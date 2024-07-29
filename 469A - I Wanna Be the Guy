@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class problemSolving {
+
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+
+        Set<Integer> set = new HashSet<>();
+        
+        int level = scanner.nextInt();
+        
+        int pOne = scanner.nextInt();    
+        for (int i = 0; i < pOne; i++) {
+            set.add(scanner.nextInt());
+        }
+
+        int pTwo = scanner.nextInt();
+        for (int i = 0; i < pTwo; i++) {
+            set.add(scanner.nextInt());
+        }
+        
+        if (set.size() == level) {
+            System.out.println("I become the guy.");
+        } else {
+            System.out.println("Oh, my keyboard!");
+        }
+    } 
+}
